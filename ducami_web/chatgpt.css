@@ -22,12 +22,12 @@ body{
   border-radius: 8px;
   cursor: pointer;
   background: #212121;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .s-bt{
   padding: 10px;
-  font-size: 14px;
+  font-size: 18px;
   cursor: pointer;
 }
 
@@ -37,7 +37,7 @@ body{
 }
 
 .title{
-  font-size: 12px;
+  font-size: 18px;
   color: lightgray;
   margin-bottom: 10px;
 }
@@ -45,7 +45,7 @@ body{
 .lst li{
   list-style: none;
   padding: 8px;
-  font-size: 14px;
+  font-size: 18px;
   cursor: pointer;
 }
 
@@ -118,14 +118,44 @@ input {
 
 .t-bt {
   background: none;
-  border: 1px solid gray;
+  border: 1px solid rgb(44, 44, 44);
   color: whitesmoke;
-  padding: 8px 15px;
-  border-radius: 20px;
-  font-size: 13px;
+  padding: 15px 20px;
+  border-radius: 25px;
+  font-size: 18px;
   cursor: pointer;
 }
 
 .t-bt:hover {
   background: #212121;
+}
+
+#logo{
+  width: 35px;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.m-sel{
+  font-size: 25px;
+  padding: 10px;
+}
+
+.tit_bt{
+  border: 0px solid black;
+  background: none;
+  cursor: pointer;
+  font-size: 25px;
+  border: 35px;
+  color: whitesmoke;
+}
+
+.dd:hover{
+  background: #212121;
+}
+
+#img_img{
+  padding-right: 10px;
 }
